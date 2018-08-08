@@ -7,6 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  public profileArray = [
+
+    { url: '../assets/retriever.jpg' },
+    { url: '../assets/retriever.jpg' },
+    { url: '../assets/retriever.jpg' },
+    { url: '../assets/retriever.jpg' },
+    { url: '../assets/retriever.jpg' },
+    { url: '../assets/retriever.jpg' },
+    { url: '../assets/retriever.jpg' },
+    { url: '../assets/retriever.jpg' },
+
+  ]
+
   constructor() { }
 
   ngOnInit() {

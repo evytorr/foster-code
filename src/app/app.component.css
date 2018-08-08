@@ -5,5 +5,6 @@
 .navbar {
     background-color: #4DADAE;
     color: rgb(77,173,174, 0.5);
-    font-family: Helvetica, Arial, sans-serif; 
+    /* font-family: Helvetica, Arial, sans-serif;  */
+    font-family: 'Poppins', sans-serif;
 }

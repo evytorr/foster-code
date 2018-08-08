@@ -1,70 +1,100 @@
 <body>
-    
+
   <!-- This is the top section -->
-  <div class="container-fluid home">
-  
-      <div class="row row1">
-          <div class="col-12">
-                  <p class="title">#FosterCode</p>
-          </div>
+  <div class="container-fluid home" id="home">
+
+    <div class="row row1">
+
+      <div class="col-12">
+        <p class="title">#FosterCode</p>
       </div>
-  
-      <div class="row row2">
-          <div class="col-3">
-  
-          </div>
-          <div class="col-6">
-              <p class="subheading">
-                  level franzen selfies, bitters prism tacos yuccie
-              </p>
-          </div>
-          <div class="col-3">
-  
-          </div>
+
+    </div>
+
+    <div class="row row2">
+
+      <div class="col-3">
+        <!-- This empty column just used for spacing -->
       </div>
-  
-      <div class="row row3">
-          <div class="col-4">
-              <p>
-                   <i class="fas fa-home"></i>
-              </p>
-              <p>
-                  level franzen selfies, bitters prism tacos yuccie
-              </p>
-          </div>
-          <div class="col-4">
-              <p>
-                  <i class="fas fa-home"></i>
-              </p>
-              <p>
-                  level franzen selfies, bitters prism tacos yuccie
-              </p>
-          </div>
-          <div class="col-4">
-              <p>
-                  <i class="fas fa-home"></i>
-              </p>
-              <p>
-                  level franzen selfies, bitters prism tacos yuccie
-              </p>
-          </div>
+
+      <div class="col-6">
+        <p class="subheading">
+          level franzen selfies, bitters prism tacos yuccie
+        </p>
       </div>
-  
-  
+
+      <div class="col-3">
+        <!-- This empty column just used for spacing -->
+      </div>
+
+    </div>
+
+    <div class="row row3">
+
+      <div class="col-4">
+        <p>
+          <i class="fas fa-home"></i>
+        </p>
+        <p>
+          level franzen selfies, bitters prism tacos yuccie
+        </p>
+      </div>
+
+      <div class="col-4">
+        <p>
+          <i class="fas fa-home"></i>
+        </p>
+        <p>
+          level franzen selfies, bitters prism tacos yuccie
+        </p>
+      </div>
+
+      <div class="col-4">
+        <p>
+          <i class="fas fa-home"></i>
+        </p>
+        <p>
+          level franzen selfies, bitters prism tacos yuccie
+        </p>
+      </div>
+
+    </div>
+
+
   </div>
-  
+
   <!-- This is the orange "how it started" section -->
-  <div class="container-fluid about">
-      <div class="row">
-          <div class="col-12">
-              <p class="about-text">
-                  how it started
-              </p>
-          </div>
+  <div class="container-fluid about" id="about">
+
+    <div class="row">
+
+      <div class="col-12">
+        <p class="about-text">
+          how it started
+        </p>
       </div>
-  
+
+    </div>
+
   </div>
-  
-  
-  </body>
-  
+
+  <!-- This is the "showcase" section -->
+
+  <div class="container-fluid showcase" id="showcase">
+      <div class="row">
+        <div class="col-3 profile-col" *ngFor="let item of profileArray">
+          <img [src]="item.url" class="profile-pics">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <p class="sc">
+            showcase
+          </p>
+        </div>
+      </div>
+  </div>
+
+
+</body>
