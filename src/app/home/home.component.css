@@ -68,3 +68,40 @@ p {
     font-size: 70px;
     margin-top: 50px;
 }
+
+
+.quote {
+    background-color: green;
+    height: 650px;
+}
+
+.qt {
+    text-align: center;
+    color: blue;
+    font-size: 70px;
+    margin-top: 50px;
+}
+
+.contact {
+    background-color: rgb(24, 170, 238);
+    height: 650px;
+}
+
+.ct {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    margin-top: 50px;
+}
+
+.left {
+    text-align: center;
+}
+
+.right {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
