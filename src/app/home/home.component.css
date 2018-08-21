@@ -32,7 +32,6 @@ p {
 
 .about {
     background-color: #E26E3C;
-    width: 100vw;
     height: 700px;
 }
 
@@ -71,7 +70,7 @@ p {
 
 
 .quote {
-    background-color: green;
+    background-image: url('https://images5.alphacoders.com/695/695933.jpg');
     height: 650px;
 }
 
@@ -96,12 +95,16 @@ p {
 
 .left {
     text-align: center;
+    font-size: 25px;
 }
 
 .right {
     text-align: center;
+    font-size: 25px;
 }
 
 h1 {
     text-align: center;
+    color: white;
+    font-size: 70px;
 }
