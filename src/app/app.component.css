@@ -2,6 +2,9 @@
     margin-left: auto;
 }
 
+.nav-link {
+    margin-left: 30px;
+}
 .navbar {
     background-color: #4DADAE;
     color: rgb(77,173,174, 0.5);
