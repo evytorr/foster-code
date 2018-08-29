@@ -53,19 +53,19 @@ p {
 
 .profile-col {
     height: 220px;
-    margin-top: 90px;
+    margin-top: 100px;
 }
 
 .showcase {
     background-color: white;
-    height: 650px;
+    height: 800px;
 }
 
-.sc {
+.showcase-text {
     text-align: center;
     color: #4DADAE;
     font-size: 70px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 
@@ -76,13 +76,12 @@ p {
 
 .qt {
     text-align: center;
-    color: blue;
+    color: white;
     font-size: 70px;
-    margin-top: 50px;
 }
 
 .contact {
-    background-color: rgb(24, 170, 238);
+    background-color:#4DADAE;
     height: 650px;
 }
 
