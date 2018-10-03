@@ -6,8 +6,18 @@
     margin-left: 30px;
 }
 .navbar {
-    background-color: #4DADAE;
+    background-color: rgba(77,173,174, 0.4);
     color: rgb(77,173,174, 0.5);
     /* font-family: Helvetica, Arial, sans-serif;  */
     font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 99999;
+
+}
+
+img{
+    width: 10%;
 }

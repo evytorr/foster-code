@@ -1,43 +1,90 @@
-.body {
+/* .body {
     background-color: #222222;
     font-family: 'Poppins', sans-serif;
+} */
+#mobile-view{
+    display: block;
 }
 
-.home {
-    height: 720px;
+#desktop-view{
+    display: none;
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
+#home {
+    height: 100vh;
+    padding-top: 120px;
+    background: url("../../assets/cohort.jpg_large"), linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+}
+
+#home:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, black, black);
+    opacity: .6;
+    z-index: 0;
+  }
+
+  .subheading{
+      text-align: center;
+      z-index: 2;
+  }
 .title {
-    font-size: 100px;
+    font-size: 40px;
     margin-top: 20px;
 }
 
-p {
+div {
     color: white;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .subheading {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .row2 {
     margin-bottom: 100px;
 }
 
+.row{
+    margin-right: 0px;
+}
+
 .icon {
     color: #f2eeee;
     font-size: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about {
     background-color: #E26E3C;
-    height: 700px;
+    height: 100vh;
 }
 
+
+
 .about-text {
-    padding-top: 321px;
-    font-size: 70px;
+    padding-top: 175px;
+    font-size: 40px;
+}
+
+
+.bio{
+    padding-top: 45px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .profile-pics {
@@ -64,13 +111,14 @@ p {
 .showcase-text {
     text-align: center;
     color: #4DADAE;
-    font-size: 70px;
+    font-size: 50px;
     margin-top: 40px;
 }
 
 
 .quote {
-    background-image: url('https://images5.alphacoders.com/695/695933.jpg');
+    /* background-image: url('https://images5.alphacoders.com/695/695933.jpg'); */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://images5.alphacoders.com/695/695933.jpg');
     height: 650px;
 }
 
@@ -82,7 +130,7 @@ p {
 
 .contact {
     background-color:#4DADAE;
-    height: 650px;
+    height: 100vh;
 }
 
 .ct {
@@ -92,18 +140,204 @@ p {
     margin-top: 50px;
 }
 
+.contact-section{
+    padding-top: 85px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.right-contact{
+    padding-top: 110px;
+}
+
 .left {
-    text-align: center;
-    font-size: 25px;
+    text-align: justify;
+    font-size: 15px;
 }
 
 .right {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 h1 {
     text-align: center;
     color: white;
-    font-size: 70px;
+    font-size: 35px;
+}
+
+.icon{
+    width: 100%;
+}
+
+.mobile{
+    display: block;
+}
+.inline{
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+}
+
+.icon-text{
+    margin-left: 50px;
+    font-size: 21px;
+    color: white;
+}
+
+.icon-container{
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+}
+
+.icon-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.icon-spacing{
+    margin-bottom: 15px;
+}
+
+.col-12{
+    padding:0px;
+}
+
+@media (min-width: 576px) {
+    .home{
+        height: 100vh;
+    }
+
+    .icon-text{
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+
+
+    .home{
+        padding-top: 150px;
+        height: 100vh;
+    }
+
+    .title{
+        font-size: 85px;
+    }
+
+    .icon-container{
+        width: 150px;
+        height: 150px;
+    }
+
+    .icon-text{
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .about-text{
+        padding-top: 330px;
+        font-size: 60px;
+    }
+
+    .about-column{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .bio{
+        padding-top: 60px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .left{
+        font-size: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .txt-logo{
+        padding-top: 110px;
+    }
+
+    h1{
+        font-size: 60px;
+        padding-top: 150px;
+    }
+
+    .right{
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    #mobile-view{
+        display: none;
+    }
+    
+    #desktop-view{
+        display: block;
+    }
+    .title{
+        font-size: 115px;
+    }
+
+    .subheading{
+        font-size: 45px;
+    }
+
+    .home{
+        padding-top: 170px;
+    }
+
+
+
+    .icon-container{
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    }
+
+    .icon-text{
+        font-size: 35px;
+    }
+
+    .about-text{
+        font-size: 85px;
+    }
+
+    .bio{
+        padding-top: 180px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .about-column{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .left{
+        font-size: 35px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .txt-logo{
+        padding-top: 135px;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+    .about-text{
+        padding-top:525px;
+    }
+
 }

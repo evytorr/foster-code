@@ -1,0 +1,95 @@
+
+
+  <!-- This is the orange "how it started" section -->
+  <div class="container-fluid about">
+    <div class="row">
+      <div class="col-12">
+        <p class="about-text">
+         <a id="about-section">how it started</a>
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, corrupti fugiat? Recusandae adipisci culpa quibusdam, deleniti nam nesciunt consectetur consequuntur molestiae reprehenderit suscipit numquam explicabo non natus, corrupti molestias officiis.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- This is the "showcase" section -->
+
+  <div class="container-fluid showcase" id="showcase">
+      <div class="row">
+        <div class="col-3 profile-col" *ngFor="let item of profileArray">
+          <img [src]="item.url" class="profile-pics">
+        </div>
+        <div class="container-fluid">
+          <p class="showcase-text">
+            showcase
+          </p>
+      </div>
+  </div>
+
+  <!-- This is the quote section -->
+
+  <div class="container-fluid quote" id="quote">
+    <div class="row">
+      <div class="col-12">
+      </div>
+    </div>
+  </div>
+
+  <!-- This is the contact section-->
+  <div class="container-fluid contact" id="contact">
+      <div class="row">
+        <div class="col-12">
+          <br>
+          <br>
+          
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6">
+          <img src="../assets/txt-logo.png" alt="" class="icon">
+          <br>
+          <p class="left">
+            We serve young teens of color between the 7th and 11th grade who are from
+            low income communities. Since 2009, we've used the concept of developing strong teams 
+            as a way for our young men to learn about collaboration, ideation, and long lasting life skills.
+            In small teams, our youth learn the process of taking an idea to the market.
+          </p>
+
+        </div>
+        <div class="col-6">
+          <h1>Contact</h1>
+          <br>
+          <p class="right">
+            3655 South Grand Avenue
+            <br>
+            Los Angeles, CA, 90007 Ste. 220
+          </p>
+
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<!-- MOBILE SHOWCASE SECTION -->
+
+    <!-- This is the "showcase" section -->
+
+    <div class="container-fluid showcase mobile" id="showcase">
+            <div class="container-fluid mobile">
+              <p class="showcase-text mobile">
+                showcase
+              </p>
+            </div>
+            <div class="row mobile">
+              <div class="col-12 profile-col mobile" *ngFor="let item of profileArray">
+                <img [src]="item.url" class="profile-pics mobile">
+              </div>
+            </div>
+      
+            <!-- This is where the "showcase" section ends -->

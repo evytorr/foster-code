@@ -1,139 +1,212 @@
-<div class="body">
+<!-- <div class="body"> -->
 <!-- This is the top section -->
-  <div class="container-fluid home" id="home">
+<div class="container-fluid wrapper" id="mobile-view">
 
-    <div class="row row1">
-
+  <!-- This is section #1 - Header -->
+  <div class="container-fluid" id="home">
+    <div class="row">
       <div class="col-12">
         <p class="title">#FosterCode</p>
       </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-12">
+        <p>
+          Insert quote here.
+        </p>
+      </div>
+    </div>
+
+    <!-- this will show up on mobile -->
+    <div class="row">
+      <div class="col-12">
+        <div class="icon-spacing">
+          <div class="icon-container inline">
+            <img src="../assets/solidarity.png" alt="" class="icon">
+          </div>
+          <div class="inline icon-text">
+            Community
+          </div>
+        </div>
+
+        <div class="icon-spacing">
+          <div class="icon-container inline">
+            <img src="../assets/studying.png" alt="" class="icon">
+          </div>
+          <div class="inline icon-text">
+            Academics
+          </div>
+        </div>
+
+        <div class="icon-spacing">
+          <div class="icon-container inline">
+            <img src="../assets/home.png" alt="" class="icon">
+          </div>
+          <div class="inline icon-text">
+            Technology
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- This is section #2 - "About" -->
+  <div class="container-fluid about mobile" id="about">
+    <div class="row">
+      <div class="col-12">
+        <div class="about-text">
+          <a id="about-section">how it started</a>
+        </div>
+        <div class="bio">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, corrupti fugiat? Recusandae adipisci culpa quibusdam,
+          deleniti nam nesciunt consectetur consequuntur molestiae reprehenderit suscipit numquam explicabo non natus, corrupti
+          molestias officiis.
+        </div>
+      </div>
 
     </div>
 
-    <div class="row row2">
+  </div>
 
-      <div class="col-3">
-        <!-- This empty column just used for spacing -->
-      </div>
 
+  <!-- THIS IS A PLACEHOLDER FOR SECTION #3 - THE MOBILE SHOWCASE SECTION -->
+
+  <!-- THIS IS A PLACEHOLDER FOR SECTION #3 - THE MOBILE SHOWCASE SECTION -->
+
+
+
+  <!-- This is section #4 - "Contact"-->
+  <div class="container-fluid contact mobile" id="contact">
+
+    <div class="row contact-section">
       <div class="col-6">
-        <p class="subheading">
-          level franzen selfies, bitters prism tacos yuccie
+        <img src="../assets/txt-logo.png" alt="" class="icon">
+        <br>
+        <p class="left">
+          We serve young teens of color between the 7th and 11th grade who are from low income communities. Since 2009, we've used
+          the concept of developing strong teams as a way for our young men to learn about collaboration, ideation, and long
+          lasting life skills. In small teams, our youth learn the process of taking an idea to the market.
         </p>
-      </div>
 
-      <div class="col-3">
-        <!-- This empty column just used for spacing -->
       </div>
+      <div class="col-6 right-contact">
+        <h1>Contact</h1>
+        <br>
+        <p class="right">
+          3655 South Grand Avenue
+          <br> Los Angeles, CA, 90007 Ste. 220
+        </p>
 
+      </div>
     </div>
-
-    <div class="row row3">
-
-      <div class="col-4">
-        <p>
-          <img src="../assets/solidarity.png" alt="" class="icon">
-        </p>
-        <p>
-          level franzen selfies, bitters prism tacos yuccie
-        </p>
-      </div>
-
-      <div class="col-4">
-        <p>
-          <img src="../assets/studying.png" alt="" class="icon">
-        </p>
-        <p>
-          level franzen selfies, bitters prism tacos yuccie
-        </p>
-      </div>
-
-      <div class="col-4">
-        <p>
-          <img src="../assets/home.png" alt="" class="icon">
-        </p>
-        <p>
-          level franzen selfies, bitters prism tacos yuccie
-        </p>
-      </div>
-
-    </div>
-
-
   </div>
 
 
-  <!-- This is the orange "how it started" section -->
-  <div class="container-fluid about">
-    <div class="row">
-      <div class="col-12">
-        <p class="about-text">
-         <a id="about-section">how it started</a>
-        </p>
-      </div>
+</div>
 
-    </div>
 
-  </div>
 
-  <!-- This is the "showcase" section -->
 
-  <div class="container-fluid showcase" id="showcase">
+
+
+<!-- This will show up on desktop -->
+
+<div class="container-fluid wrapper" id="desktop-view">
+  <!-- This is section #1 - Header -->
+  <div class="container-fluid" id="home">
+
       <div class="row">
-        <div class="col-3 profile-col" *ngFor="let item of profileArray">
-          <img [src]="item.url" class="profile-pics">
+          <div class="col-12">
+            <p class="title">#FosterCode</p>
+          </div>
         </div>
-
-      <div class="row">
-        <div class="col-12">
-          <p class="showcase-text">
-            showcase
-          </p>
-      </div>
-      </div>
-
     
-  </div>
-
-  <!-- This is the quote section -->
-
-  <div class="container-fluid quote" id="quote">
-    <div class="row">
+    <div class="row row2">
       <div class="col-12">
+        <p class="subheading">
+          Insert quote here.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="icon-spacing col-4">
+        <div class="icon-container">
+          <img src="../assets/solidarity.png" alt="" class="icon">
+        </div>
+        <div class="icon-text">
+          Community
+        </div>
+      </div>
+
+      <div class="icon-spacing col-4">
+        <div class="icon-container">
+          <img src="../assets/studying.png" alt="" class="icon">
+        </div>
+        <div class="icon-text">
+          Academics
+        </div>
+      </div>
+
+      <div class="icon-spacing col-4">
+        <div class="icon-container">
+          <img src="../assets/home.png" alt="" class="icon">
+        </div>
+        <div class="icon-text">
+          Technology
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- This is the contact section-->
-  <div class="container-fluid contact" id="contact">
-      <div class="row">
-        <div class="col-12">
-          <br>
-          <br>
-          
+
+  <!-- This is section #2 - About -->
+  <!-- <div class="container-fluid about desktop" id="about">
+    <div class="row">
+      <div class="col-12 about-column">
+        <div class="about-text">
+          <a id="about-section">how it started</a>
+        </div>
+        <div class="bio">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, corrupti fugiat? Recusandae adipisci culpa quibusdam,
+          deleniti nam nesciunt consectetur consequuntur molestiae reprehenderit suscipit numquam explicabo non natus, corrupti
+          molestias officiis.
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-6">
-          <h1>TXT</h1>
-          <p class="left">
-            We serve young teens of color between the 7th and 11th grade who are from
-            low income communities. Since 2009, we've used the concept of developing strong teams 
-            as a way for our young men to learn about collaboration, ideation, and long lasting life skills.
-            In small teams, our youth learn the process of taking an idea to the market.
-          </p>
+    </div>
 
-        </div>
-        <div class="col-6">
-          <h1>Contact</h1>
-          <p class="right">
-            3655 South Grand Avenue
-            <br>
-            Los Angeles, CA, 90007 Ste. 220
-          </p>
+  </div> -->
 
-        </div>
+  <!-- THIS IS A PLACEHOLDER FOR SECTION #3 - SHOWCASE DESKTOP -->
+
+  <!-- THIS IS A PLACEHOLDER FOR SECTION #3 - SHOWCASE DESKTOP -->
+
+
+  <!-- This is section #4 - Footer -->
+  <!-- <div class="container-fluid contact desktop" id="contact">
+
+    <div class="row contact-section">
+      <div class="col-6">
+        <img src="../assets/txt-logo.png" alt="" class="txt-logo">
+        <br>
+        <p class="left">
+          We serve young teens of color between the 7th and 11th grade who are from low income communities. Since 2009, we've used
+          the concept of developing strong teams as a way for our young men to learn about collaboration, ideation, and long
+          lasting life skills. In small teams, our youth learn the process of taking an idea to the market.
+        </p>
+      </div>
+      <div class="col-6 right-contact">
+        <h1>Contact</h1>
+        <br>
+        <p class="right">
+          3655 South Grand Ave., Ste. 220
+          <br> Los Angeles, CA, 90007
+        </p>
       </div>
     </div>
+  </div> -->
 </div>
