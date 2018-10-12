@@ -1,7 +1,4 @@
-/* .body {
-    background-color: #222222;
-    font-family: 'Poppins', sans-serif;
-} */
+
 #mobile-view{
     display: block;
 }
@@ -12,6 +9,10 @@
 .container-fluid{
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.home{
+    height: 100vh;
 }
 
 #home {
@@ -33,9 +34,14 @@
     z-index: 0;
   }
 
+  p{
+      font-size: 20px;
+  }
+
   .subheading{
       text-align: center;
       z-index: 2;
+      font-size: 30px;
   }
 .title {
     font-size: 40px;
@@ -48,9 +54,6 @@ div {
     font-family: 'Poppins', sans-serif;
 }
 
-.subheading {
-    font-size: 30px;
-}
 
 .row2 {
     margin-bottom: 100px;
@@ -59,6 +62,7 @@ div {
 .row{
     margin-right: 0px;
 }
+
 
 .icon {
     color: #f2eeee;
