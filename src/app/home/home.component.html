@@ -73,42 +73,92 @@
 
 
   <!-- THIS IS A PLACEHOLDER FOR SECTION #3 - THE MOBILE SHOWCASE SECTION -->
+  
+  <!-- Jeffrey's verion of showcase -->
+  
+  <!-- <div class="container-fluid" id="showcase_container">
+    <div class="row">
+      <div class="col-6">
+        <img class="headshots"src="../../assets/jeffrey_headshot.png">
+        <p>
+          Jeffrey Ren
+        </p>
+      </div>
+      <div class="col-6">
+          <img class="headshots" src="../../assets/jeffrey_headshot.png">
+        <p>
+          Sami
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+          <img class="headshots" src="../../assets/jeffrey_headshot.png">
+        <p>
+          Angel
+        </p>
+      </div>
+      <div class="col-6">
+          <img class="headshots" src="../../assets/jeffrey_headshot.png">
+        <p>
+          Evelyn
+        </p>
+      </div>
+    </div>
+  </div>
+</div> -->
 
 
  
 
   <!-- THIS IS A PLACEHOLDER FOR SECTION #3 - THE MOBILE SHOWCASE SECTION -->
-
-
-
-  <!-- This is section #4 - "Contact"-->
-  <div class="container-fluid contact mobile" id="contact">
-
-    <div class="row contact-section">
-      <div class="col-6">
-        <img src="../assets/txt-logo.png" alt="" class="icon">
-        <br>
-        <p class="left">
-          We serve young teens of color between the 7th and 11th grade who are from low income communities. Since 2009, we've used
-          the concept of developing strong teams as a way for our young men to learn about collaboration, ideation, and long
-          lasting life skills. In small teams, our youth learn the process of taking an idea to the market.
+<div class="container-fluid showcase" id="showcase">
+    <div class="row">
+      <div class="col-6 profile-col" *ngFor="let item of profileArray">
+        <img [src]="item.url" class="profile-pics">
+        <p>
+          {{item.caption}}
         </p>
-
       </div>
-      <div class="col-6 right-contact">
-        <h1>Contact</h1>
-        <br>
-        <p class="right">
-          3655 South Grand Avenue
-          <br> Los Angeles, CA, 90007 Ste. 220
+      <div class="container-fluid">
+        <p class="showcase-text">
+          showcase
         </p>
+    </div>
+</div>
 
-      </div>
+<!-- THIS IS A PLACEHOLDER FOR SECTION #3 - THE MOBILE SHOWCASE SECTION -->
+
+
+
+<!-- This is section #4 - "Contact"-->
+<div class="container-fluid contact mobile" id="contact">
+
+  <div class="row contact-section">
+    <div class="col-6">
+      <img src="../assets/txt-logo.png" alt="" class="icon">
+      <br>
+      <p class="left">
+        We serve young teens of color between the 7th and 11th grade who are from low income communities. Since 2009, we've used
+        the concept of developing strong teams as a way for our young men to learn about collaboration, ideation, and long
+        lasting life skills. In small teams, our youth learn the process of taking an idea to the market.
+      </p>
+
+    </div>
+    <div class="col-6 right-contact">
+      <h1>Contact</h1>
+      <br>
+      <p class="right">
+        3655 South Grand Avenue
+        <br> Los Angeles, CA, 90007 Ste. 220
+      </p>
+
     </div>
   </div>
-
-
 </div>
+
+
+
 
 
 
@@ -121,12 +171,12 @@
   <!-- This is section #1 - Header -->
   <div class="container-fluid home" id="home">
 
-      <div class="row">
-          <div class="col-12">
-            <p class="title">#FosterCode</p>
-          </div>
-        </div>
-    
+    <div class="row">
+      <div class="col-12">
+        <p class="title">#FosterCode</p>
+      </div>
+    </div>
+
     <div class="row row2">
       <div class="col-12">
         <p class="subheading">
@@ -186,6 +236,7 @@
   </div> -->
 
   <!-- THIS IS A PLACEHOLDER FOR SECTION #3 - SHOWCASE DESKTOP -->
+
 
   <!-- THIS IS A PLACEHOLDER FOR SECTION #3 - SHOWCASE DESKTOP -->
 

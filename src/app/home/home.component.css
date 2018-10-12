@@ -108,7 +108,7 @@ div {
 }
 
 .showcase {
-    background-color: white;
+    background-color:black;
     height: 800px;
 }
 
@@ -207,6 +207,17 @@ h1 {
 
 .col-12{
     padding:0px;
+}
+
+.headshots{
+    border-radius:50%;
+    width:50%;
+    padding-top:15px;
+    
+}
+
+#showcase_container{
+    background-color: black;
 }
 
 @media (min-width: 576px) {
