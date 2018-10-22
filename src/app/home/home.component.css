@@ -212,9 +212,7 @@ h1 {
     
 }
 
-#showcase_container{
-    background-color: black;
-}
+
 
 @media (min-width: 576px) {
     .home{
