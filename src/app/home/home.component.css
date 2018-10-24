@@ -150,11 +150,12 @@ div {
 }
 
 .right-contact{
-    
+    text-align: justify;
 }
 
 .rights_reserved{
     font-size: 10px;
+    text-align: center;
 }
 
 .left {
@@ -224,6 +225,7 @@ h1 {
 #contact{
     font-size:30px;
     padding-top:10px;
+    text-align: center;
 }
 
 .showcase-caption{
