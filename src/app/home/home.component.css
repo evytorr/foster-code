@@ -272,8 +272,36 @@ background-color:black;
 }
 
 @media (min-width: 768px) {
+#about{
+    height:700px;
+}
 
+.king_quote_container{
+    height:700px;
+}
 
+.showcase-caption{
+font-size:25px;
+}
+
+.king_quote{
+    padding-left:40px;
+    padding-right:40px;
+    font-size:30px;
+    text-align:1.8;
+}
+
+.profile-col{
+    height:300px;
+}
+
+#showcase{
+height:800px;
+}
+
+.showcase-text{
+    font-size:60px;
+}
     .home{
         padding-top: 150px;
         height: 100vh;
@@ -294,7 +322,7 @@ background-color:black;
     }
 
     .about-text{
-        padding-top: 330px;
+        padding-top: 190px;
         font-size: 60px;
     }
 
