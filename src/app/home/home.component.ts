@@ -9,10 +9,10 @@ export class HomeComponent implements OnInit {
 
   public profileArray = [
 
-    { url: '../assets/retriever.jpg',caption:"Jeffrey" },
-    { url: '../assets/retriever.jpg',caption:"evelyn" },
-    { url: '../assets/retriever.jpg' ,caption:"Angel"},
-    { url: '../assets/retriever.jpg',caption:"Sami" },
+    { url: '../assets/retriever.jpg',caption:"Jeffrey",website: 'insert here' },
+    { url: '../assets/retriever.jpg',caption:"evelyn",website: 'insert here' },
+    { url: '../assets/retriever.jpg' ,caption:"Angel",website: 'insert here'},
+    { url: '../assets/retriever.jpg',caption:"Sami",website: 'insert here'},
   
 
   ]
