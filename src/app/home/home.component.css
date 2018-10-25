@@ -57,6 +57,7 @@ div {
 
 .row{
     margin-right: 0px;
+    margin-left:0px;
 }
 
 
@@ -69,13 +70,14 @@ div {
 
 .about {
     background-color: #E26E3C;
-    height: 100vh;
+    width:100%;
+    height: 500px;
 }
 
 
 
 .about-text {
-    padding-top: 175px;
+    padding-top: 100px;
     font-size: 40px;
 }
 
@@ -89,30 +91,31 @@ div {
 
 .profile-pics {
     border-radius: 50%;
-    height: 90%;
+    height: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
     border-width: 2px;
     border-color: gray;
+
 }
 
 .profile-col {
-    height: 220px;
-    margin-top: 100px;
+    height: 150px;
 }
 
 .showcase {
-    background-color:black;
+    background-color:white;
     height: 800px;
+    color: #4DADAE;
 }
 
 .showcase-text {
     text-align: center;
     color: #4DADAE;
-    font-size: 50px;
-    margin-top: 40px;
+    font-size: 30px;
+
 }
 
 
@@ -130,7 +133,7 @@ div {
 
 .contact {
     background-color:#4DADAE;
-    height: 100vh;
+    width:  100vw;
 }
 
 .ct {
@@ -141,13 +144,18 @@ div {
 }
 
 .contact-section{
-    padding-top: 85px;
+    padding-top: 45px;
     padding-left: 30px;
     padding-right: 30px;
 }
 
 .right-contact{
-    padding-top: 110px;
+    text-align: justify;
+}
+
+.rights_reserved{
+    font-size: 10px;
+    text-align: center;
 }
 
 .left {
@@ -157,7 +165,8 @@ div {
 
 .right {
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
+    line-height:1.6;
 }
 
 h1 {
@@ -168,6 +177,7 @@ h1 {
 
 .icon{
     width: 100%;
+    padding-bottom:10px;
 }
 
 .mobile{
@@ -212,7 +222,38 @@ h1 {
     
 }
 
+#contact{
+    font-size:30px;
+    padding-top:10px;
+    text-align: center;
+}
 
+.showcase-caption{
+    font-size: 15px;
+    color: #4DADAE;
+}
+
+.king_quote_container{
+background-color:black;
+}
+
+.king_quote{
+    padding:5px;
+    padding-top:30px;
+    line-height:1.8;
+}
+
+#join_us_button{
+    border-color: white;
+    border-width: 3px;
+    background-color: transparent;
+    margin-bottom:30px;
+}
+
+#join_us_text{
+    color:white;
+    margin-bottom:0px;
+}
 
 @media (min-width: 576px) {
     .home{
@@ -223,11 +264,44 @@ h1 {
         text-align: center;
         margin-left: 0px;
     }
+.profile-pics{
+    height:220px;
+}
+
+
 }
 
 @media (min-width: 768px) {
+#about{
+    height:700px;
+}
 
+.king_quote_container{
+    height:700px;
+}
 
+.showcase-caption{
+font-size:25px;
+}
+
+.king_quote{
+    padding-left:40px;
+    padding-right:40px;
+    font-size:30px;
+    text-align:1.8;
+}
+
+.profile-col{
+    height:300px;
+}
+
+#showcase{
+height:800px;
+}
+
+.showcase-text{
+    font-size:60px;
+}
     .home{
         padding-top: 150px;
         height: 100vh;
@@ -248,7 +322,7 @@ h1 {
     }
 
     .about-text{
-        padding-top: 330px;
+        padding-top: 190px;
         font-size: 60px;
     }
 
