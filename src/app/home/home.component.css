@@ -1,11 +1,17 @@
 
-#mobile-view{
+/* #mobile-view{
     display: block;
+} */
+
+/* #desktop-view{
+    display: none;
+} */
+
+
+.icon_row{
+    padding:40px;
 }
 
-#desktop-view{
-    display: none;
-}
 .container-fluid{
     padding-left: 0px;
     padding-right: 0px;
@@ -77,7 +83,7 @@ div {
 
 
 .about-text {
-    padding-top: 100px;
+    padding-top: 40px;
     font-size: 40px;
 }
 
@@ -87,6 +93,7 @@ div {
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
+    font-size:20px;
 }
 
 .profile-pics {
@@ -107,7 +114,7 @@ div {
 
 .showcase {
     background-color:white;
-    height: 800px;
+    height: 400px;
     color: #4DADAE;
 }
 
@@ -122,7 +129,7 @@ div {
 .quote {
     /* background-image: url('https://images5.alphacoders.com/695/695933.jpg'); */
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://images5.alphacoders.com/695/695933.jpg');
-    height: 650px;
+    height: 600px;
 }
 
 .qt {
@@ -238,9 +245,15 @@ background-color:black;
 }
 
 .king_quote{
-    padding:5px;
+    padding:40px;
+    padding-bottom:20px;
     padding-top:30px;
     line-height:1.8;
+    text-align:center;
+}
+.bio{
+    padding:40px;
+
 }
 
 #join_us_button{
@@ -256,8 +269,17 @@ background-color:black;
 }
 
 @media (min-width: 576px) {
-    .home{
-        height: 100vh;
+   #showcase{
+       height:300px;
+   }
+.about{
+    height:350px;
+}
+
+
+    #home{
+        height: 400px;
+        padding-top: 80px;
     }
 
     .icon-text{
@@ -265,14 +287,52 @@ background-color:black;
         margin-left: 0px;
     }
 .profile-pics{
-    height:220px;
+    height:120px;
+}
+.title{
+    margin-top:0px;
 }
 
+#home:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, black, black);
+    opacity: .6;
+    z-index: 0;
+    height:400px;
+  }
+
+.about-text{
+    padding-top:50px;
+}
 
 }
 
 @media (min-width: 768px) {
-#about{
+    #home {
+        height: 700px;
+        padding-top: 125px;
+        background: url("../../assets/cohort.jpg_large"), linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        background-size: cover;
+    }
+    #home:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to bottom right, black, black);
+        opacity: .6;
+        z-index: 0;
+        height:700px;
+      }
+
+ #about{
     height:700px;
 }
 
@@ -288,7 +348,7 @@ font-size:25px;
     padding-left:40px;
     padding-right:40px;
     font-size:30px;
-    text-align:1.8;
+    line-height:1.8;
 }
 
 .profile-col{
@@ -296,7 +356,7 @@ font-size:25px;
 }
 
 #showcase{
-height:800px;
+height:400px;
 }
 
 .showcase-text{
@@ -322,7 +382,7 @@ height:800px;
     }
 
     .about-text{
-        padding-top: 190px;
+        padding-top: 140px;
         font-size: 60px;
     }
 
@@ -359,15 +419,37 @@ height:800px;
 }
 
 @media (min-width: 992px) {
-    #mobile-view{
+    /* #mobile-view{
         display: none;
-    }
+    } */
     
-    #desktop-view{
+    /* #desktop-view{
         display: block;
+    } */
+
+    .foster_quote{
+    padding-bottom:40px;
     }
+
+
+
+
+ .king_quote{
+        padding-top:100px;
+        padding-left:40px;
+        padding-right:40px;
+        font-size:30px;
+        text-align:1.8;
+        padding-bottom:40px;
+    }
+
+    #showcase{
+        height:500px;
+        }
+
     .title{
-        font-size: 115px;
+        font-size: 110px;
+        color:white;
     }
 
     .subheading{
@@ -381,8 +463,8 @@ height:800px;
 
 
     .icon-container{
-        width: 200px;
-        height: 200px;
+        width: 120px;
+        height: 120px;
         margin: auto;
     }
 
@@ -391,11 +473,13 @@ height:800px;
     }
 
     .about-text{
+    padding-top:90px;
         font-size: 85px;
     }
 
     .bio{
-        padding-top: 180px;
+        padding-top: 50px;
+        padding:40px;
         font-size: 30px;
         text-align: center;
     }
@@ -415,12 +499,65 @@ height:800px;
         padding-top: 135px;
     }
 
-
+    .profile-pics{
+        height:200px;
+    }
+    #join_us_button{
+        border-color: white;
+        border-width: 3px;
+        background-color: transparent;
+        margin-bottom:30px;
+        width: 500px;
+        height: 100px;
+    }
+    
+    #join_us_text{
+        color:white;
+        margin-bottom:0px;
+        font-size:50px;
+    }
 }
 
 @media (min-width: 1200px) {
     .about-text{
-        padding-top:525px;
+        padding-top:80px;
     }
 
+    .icon_row{
+        padding-top:60px;
+    }
+    .king_quote{
+        padding-top:100px;
+        padding-left:40px;
+        padding-right:40px;
+        font-size:30px;
+        text-align:1.8;
+        padding-bottom:40px;
+    }
+    .bio{
+        padding-top: 50px;
+        font-size: 30px;
+        text-align: center;
+        padding-left:50px;
+        padding-right:50px;
+    line-height:1.8;
+    }
+
+    #showcase{
+        height:500px;
+        }
+     #join_us_button{
+            border-color: white;
+            border-width: 3px;
+            background-color: transparent;
+            margin-bottom:30px;
+            width: 500px;
+            height: 100px;
+        }
+        
+        #join_us_text{
+            color:white;
+            margin-bottom:0px;
+            font-size:50px;
+        }
 }

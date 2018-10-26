@@ -11,7 +11,7 @@
     </div>
 
 
-    <div class="row">
+    <div class="row foster_quote">
       <div class="col-12">
         <p>
           Insert quote here.
@@ -20,8 +20,8 @@
     </div>
 
     <!-- this will show up on mobile -->
-    <div class="row">
-      <div class="col-12">
+    <div class="row icon_row">
+      <div class="col-12 col-sm-4 col-md-4 col-lg-4">
         <div class="icon-spacing">
           <div class="icon-container inline">
             <img src="../assets/solidarity.png" alt="" class="icon">
@@ -30,7 +30,8 @@
             Community
           </div>
         </div>
-
+      </div>
+      <div class="col-12 col-sm-4 col-md-4 col-lg-4">
         <div class="icon-spacing">
           <div class="icon-container inline">
             <img src="../assets/studying.png" alt="" class="icon">
@@ -39,7 +40,8 @@
             Academics
           </div>
         </div>
-
+      </div>
+      <div class="col-12 col-sm-4 col-md-4 col-lg-4">
         <div class="icon-spacing">
           <div class="icon-container inline">
             <img src="../assets/tech.png" alt="" class="icon">
@@ -49,9 +51,9 @@
           </div>
         </div>
       </div>
+
     </div>
   </div>
-
   <!-- This is section #2 - "About" -->
   <div class="container-fluid about mobile" id="about">
     <div class="row">
@@ -117,7 +119,7 @@
     </p>
 
     <div class="row">
-      <div class="col-6 profile-col" *ngFor="let item of profileArray">
+      <div class="col-6 col-sm-3 profile-col" *ngFor="let item of profileArray">
         <img [src]="item.url" class="profile-pics">
         <p class="showcase-caption">
           {{item.caption}}
@@ -126,64 +128,64 @@
       </div>
 
     </div>
-</div>
-    <!-- THIS IS A PLACEHOLDER FOR SECTION #3 - THE MOBILE SHOWCASE SECTION -->
+  </div>
+  <!-- THIS IS A PLACEHOLDER FOR SECTION #3 - THE MOBILE SHOWCASE SECTION -->
 
-    <!--
+  <!--
 I had a dream quote section
 -->
 
-    <div class="container-fluid king_quote_container">
-      <div class="row">
-        <div class="col-sm-12">
+  <div class="container-fluid king_quote_container">
+    <div class="row">
+      <div class="col-sm-12">
           <p class="king_quote">
-            "I HAVE A DREAM TODAY!
-            <br>
-            <br> I have a dream that one day every valley shall be exalted, and every hill and mountain shall be made low. The
-            rough places will be plain and the crooked places will be made straight, "and the glory of the Lord shall be
-            revealed, and all flesh shall see it together."-DR. Martin Luther King Jr.
-          </p>
+          "I HAVE A DREAM TODAY!
+          <br>
+          <br> I have a dream that one day every valley shall be exalted, and every hill and mountain shall be made low. The
+          rough places will be plain and the crooked places will be made straight, "and the glory of the Lord shall be revealed,
+          and all flesh shall see it together."-DR. Martin Luther King Jr.
+        </p>
 
-          <button id="join_us_button">
-            <p id="join_us_text">
-              Join us!
-            </p>
-          </button>
-        </div>
+        <button id="join_us_button">
+          <p id="join_us_text">
+            Join us!
+          </p>
+        </button>
       </div>
     </div>
+  </div>
 
 
-    <!--
+  <!--
 I had a dream quote section
 -->
 
-    <!-- This is section #4 - "Contact"-->
-    <div class="container-fluid contact mobile" id="contact">
-      <div class="row contact-section">
-        <div class="col-md-12 col-sm-12">
-          <img src="../assets/txt-logo.png" alt="" class="icon">
-          <br>
-          <p class="left">
-            We serve young teens of color between the 7th and 11th grade who are from low income communities. Since 2009, we've used
-            the concept of developing strong teams as a way for our young men to learn about collaboration, ideation, and
-            long lasting life skills. In small teams, our youth learn the process of taking an idea to the market.
-          </p>
+  <!-- This is section #4 - "Contact"-->
+  <div class="container-fluid contact mobile" id="contact">
+    <div class="row contact-section">
+      <div class="col-md-12 col-sm-12">
+        <img src="../assets/txt-logo.png" alt="" class="icon">
+        <br>
+        <p class="left">
+          We serve young teens of color between the 7th and 11th grade who are from low income communities. Since 2009, we've used
+          the concept of developing strong teams as a way for our young men to learn about collaboration, ideation, and long
+          lasting life skills. In small teams, our youth learn the process of taking an idea to the market.
+        </p>
 
-        </div>
-        <div class="col-md-12 col-sm-12 right-contact">
-          <h2 id="contact">Contact</h2>
-          <p class="right">
-            3655 South Grand Ave.
-            <br> Los Angeles, CA 90007 Ste. 220
-            <br> info@urbantxt.com
-          </p>
-          <p class="rights_reserved">
-            &#169;TXT Teens Exploring Technology ALL RIGHTS RESERVED
-          </p>
-        </div>
+      </div>
+      <div class="col-md-12 col-sm-12 right-contact">
+        <h2 id="contact">Contact</h2>
+        <p class="right">
+          3655 South Grand Ave.
+          <br> Los Angeles, CA 90007 Ste. 220
+          <br> info@urbantxt.com
+        </p>
+        <p class="rights_reserved">
+          &#169;TXT Teens Exploring Technology ALL RIGHTS RESERVED
+        </p>
       </div>
     </div>
+  </div>
 
 
 
@@ -193,11 +195,11 @@ I had a dream quote section
 
 
 
-    <!-- This will show up on desktop -->
+  <!-- This will show up on desktop -->
 
-    <div class="container-fluid wrapper" id="desktop-view">
-      <!-- This is section #1 - Header -->
-      <div class="container-fluid home" id="home">
+  <!-- <div class="container-fluid wrapper" id="desktop-view"> -->
+  <!-- This is section #1 - Header -->
+  <!-- <div class="container-fluid home" id="home">
 
         <div class="row">
           <div class="col-12">
@@ -242,11 +244,11 @@ I had a dream quote section
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
 
-      <!-- This is section #2 - About -->
-      <!-- <div class="container-fluid about desktop" id="about">
+  <!-- This is section #2 - About -->
+  <!-- <div class="container-fluid about desktop" id="about">
     <div class="row">
       <div class="col-12 about-column">
         <div class="about-text">
@@ -263,14 +265,14 @@ I had a dream quote section
 
   </div> -->
 
-      <!-- THIS IS A PLACEHOLDER FOR SECTION #3 - SHOWCASE DESKTOP -->
+  <!-- THIS IS A PLACEHOLDER FOR SECTION #3 - SHOWCASE DESKTOP -->
 
 
-      <!-- THIS IS A PLACEHOLDER FOR SECTION #3 - SHOWCASE DESKTOP -->
+  <!-- THIS IS A PLACEHOLDER FOR SECTION #3 - SHOWCASE DESKTOP -->
 
 
-      <!-- This is section #4 - Footer -->
-      <!-- <div class="container-fluid contact desktop" id="contact">
+  <!-- This is section #4 - Footer -->
+  <!-- <div class="container-fluid contact desktop" id="contact">
 
     <div class="row contact-section">
       <div class="col-6">
@@ -292,4 +294,4 @@ I had a dream quote section
       </div>
     </div>
   </div> -->
-    </div>
+</div>
