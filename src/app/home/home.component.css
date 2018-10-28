@@ -216,6 +216,18 @@ h1 {
     background-color: black;
 }
 
+.sectionfour{margin-left:2%;
+    margin-top: 15%;
+    height: 600px;
+}
+/* .secfourtext{
+    color:black;
+    margin-top:25%;
+} */
+.formButton{
+    margin-bottom:20%
+}
+
 @media (min-width: 576px) {
     .home{
         height: 100vh;
@@ -225,6 +237,8 @@ h1 {
         text-align: center;
         margin-left: 0px;
     }
+    
+    
 }
 
 @media (min-width: 768px) {
