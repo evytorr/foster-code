@@ -1,14 +1,17 @@
-/* .body {
-    background-color: #222222;
-    font-family: 'Poppins', sans-serif;
-} */
-#mobile-view{
+
+/* #mobile-view{
     display: block;
+} */
+
+/* #desktop-view{
+    display: none;
+} */
+
+
+.icon_row{
+    padding:40px;
 }
 
-#desktop-view{
-    display: none;
-}
 .container-fluid{
     padding-left: 0px;
     padding-right: 0px;
@@ -16,7 +19,7 @@
 
 #home {
     height: 100vh;
-    padding-top: 120px;
+    padding-top: 125px;
     background: url("../../assets/cohort.jpg_large"), linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-size: cover;
 }
@@ -33,9 +36,14 @@
     z-index: 0;
   }
 
+  p{
+      font-size: 20px;
+  }
+
   .subheading{
       text-align: center;
       z-index: 2;
+      font-size: 30px;
   }
 .title {
     font-size: 40px;
@@ -48,9 +56,6 @@ div {
     font-family: 'Poppins', sans-serif;
 }
 
-.subheading {
-    font-size: 30px;
-}
 
 .row2 {
     margin-bottom: 100px;
@@ -58,7 +63,9 @@ div {
 
 .row{
     margin-right: 0px;
+    margin-left:0px;
 }
+
 
 .icon {
     color: #f2eeee;
@@ -69,13 +76,14 @@ div {
 
 .about {
     background-color: #E26E3C;
-    height: 100vh;
+    width:100%;
+    height: 500px;
 }
 
 
 
 .about-text {
-    padding-top: 175px;
+    padding-top: 40px;
     font-size: 40px;
 }
 
@@ -85,41 +93,43 @@ div {
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
+    font-size:20px;
 }
 
 .profile-pics {
     border-radius: 50%;
-    height: 90%;
+    height: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
     border-width: 2px;
     border-color: gray;
+
 }
 
 .profile-col {
-    height: 220px;
-    margin-top: 100px;
+    height: 150px;
 }
 
 .showcase {
-    background-color:black;
-    height: 800px;
+    background-color:white;
+    height: 400px;
+    color: #4DADAE;
 }
 
 .showcase-text {
     text-align: center;
     color: #4DADAE;
-    font-size: 50px;
-    margin-top: 40px;
+    font-size: 30px;
+
 }
 
 
 .quote {
     /* background-image: url('https://images5.alphacoders.com/695/695933.jpg'); */
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://images5.alphacoders.com/695/695933.jpg');
-    height: 650px;
+    height: 600px;
 }
 
 .qt {
@@ -130,7 +140,7 @@ div {
 
 .contact {
     background-color:#4DADAE;
-    height: 100vh;
+    width:  100vw;
 }
 
 .ct {
@@ -141,13 +151,18 @@ div {
 }
 
 .contact-section{
-    padding-top: 85px;
+    padding-top: 45px;
     padding-left: 30px;
     padding-right: 30px;
 }
 
 .right-contact{
-    padding-top: 110px;
+    text-align: justify;
+}
+
+.rights_reserved{
+    font-size: 10px;
+    text-align: center;
 }
 
 .left {
@@ -157,7 +172,8 @@ div {
 
 .right {
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
+    line-height:1.6;
 }
 
 h1 {
@@ -168,6 +184,7 @@ h1 {
 
 .icon{
     width: 100%;
+    padding-bottom:10px;
 }
 
 .mobile{
@@ -212,8 +229,43 @@ h1 {
     
 }
 
-#showcase_container{
-    background-color: black;
+#contact{
+    font-size:30px;
+    padding-top:10px;
+    text-align: center;
+}
+
+.showcase-caption{
+    font-size: 15px;
+    color: #4DADAE;
+}
+
+.king_quote_container{
+background-color:black;
+}
+
+.king_quote{
+    padding:40px;
+    padding-bottom:20px;
+    padding-top:30px;
+    line-height:1.8;
+    text-align:center;
+}
+.bio{
+    padding:40px;
+
+}
+
+#join_us_button{
+    border-color: white;
+    border-width: 3px;
+    background-color: transparent;
+    margin-bottom:30px;
+}
+
+#join_us_text{
+    color:white;
+    margin-bottom:0px;
 }
 
 .sectionfour{margin-left:2%;
@@ -229,21 +281,104 @@ h1 {
 }
 
 @media (min-width: 576px) {
-    .home{
-        height: 100vh;
+   #showcase{
+       height:300px;
+   }
+.about{
+    height:350px;
+}
+
+
+    #home{
+        height: 400px;
+        padding-top: 80px;
     }
 
     .icon-text{
         text-align: center;
         margin-left: 0px;
     }
+<<<<<<< HEAD
     
     
+=======
+.profile-pics{
+    height:120px;
+}
+.title{
+    margin-top:0px;
+}
+
+#home:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, black, black);
+    opacity: .6;
+    z-index: 0;
+    height:400px;
+  }
+
+.about-text{
+    padding-top:50px;
+}
+
+>>>>>>> 703f731631c258f13c838638d918950b14a70a4f
 }
 
 @media (min-width: 768px) {
+    #home {
+        height: 700px;
+        padding-top: 125px;
+        background: url("../../assets/cohort.jpg_large"), linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        background-size: cover;
+    }
+    #home:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to bottom right, black, black);
+        opacity: .6;
+        z-index: 0;
+        height:700px;
+      }
 
+ #about{
+    height:700px;
+}
 
+.king_quote_container{
+    height:700px;
+}
+
+.showcase-caption{
+font-size:25px;
+}
+
+.king_quote{
+    padding-left:40px;
+    padding-right:40px;
+    font-size:30px;
+    line-height:1.8;
+}
+
+.profile-col{
+    height:300px;
+}
+
+#showcase{
+height:400px;
+}
+
+.showcase-text{
+    font-size:60px;
+}
     .home{
         padding-top: 150px;
         height: 100vh;
@@ -264,7 +399,7 @@ h1 {
     }
 
     .about-text{
-        padding-top: 330px;
+        padding-top: 140px;
         font-size: 60px;
     }
 
@@ -301,15 +436,37 @@ h1 {
 }
 
 @media (min-width: 992px) {
-    #mobile-view{
+    /* #mobile-view{
         display: none;
-    }
+    } */
     
-    #desktop-view{
+    /* #desktop-view{
         display: block;
+    } */
+
+    .foster_quote{
+    padding-bottom:40px;
     }
+
+
+
+
+ .king_quote{
+        padding-top:100px;
+        padding-left:40px;
+        padding-right:40px;
+        font-size:30px;
+        text-align:1.8;
+        padding-bottom:40px;
+    }
+
+    #showcase{
+        height:500px;
+        }
+
     .title{
-        font-size: 115px;
+        font-size: 110px;
+        color:white;
     }
 
     .subheading{
@@ -323,8 +480,8 @@ h1 {
 
 
     .icon-container{
-        width: 200px;
-        height: 200px;
+        width: 120px;
+        height: 120px;
         margin: auto;
     }
 
@@ -333,11 +490,13 @@ h1 {
     }
 
     .about-text{
+    padding-top:90px;
         font-size: 85px;
     }
 
     .bio{
-        padding-top: 180px;
+        padding-top: 50px;
+        padding:40px;
         font-size: 30px;
         text-align: center;
     }
@@ -357,12 +516,65 @@ h1 {
         padding-top: 135px;
     }
 
-
+    .profile-pics{
+        height:200px;
+    }
+    #join_us_button{
+        border-color: white;
+        border-width: 3px;
+        background-color: transparent;
+        margin-bottom:30px;
+        width: 500px;
+        height: 100px;
+    }
+    
+    #join_us_text{
+        color:white;
+        margin-bottom:0px;
+        font-size:50px;
+    }
 }
 
 @media (min-width: 1200px) {
     .about-text{
-        padding-top:525px;
+        padding-top:80px;
     }
 
+    .icon_row{
+        padding-top:60px;
+    }
+    .king_quote{
+        padding-top:100px;
+        padding-left:40px;
+        padding-right:40px;
+        font-size:30px;
+        text-align:1.8;
+        padding-bottom:40px;
+    }
+    .bio{
+        padding-top: 50px;
+        font-size: 30px;
+        text-align: center;
+        padding-left:50px;
+        padding-right:50px;
+    line-height:1.8;
+    }
+
+    #showcase{
+        height:500px;
+        }
+     #join_us_button{
+            border-color: white;
+            border-width: 3px;
+            background-color: transparent;
+            margin-bottom:30px;
+            width: 500px;
+            height: 100px;
+        }
+        
+        #join_us_text{
+            color:white;
+            margin-bottom:0px;
+            font-size:50px;
+        }
 }
