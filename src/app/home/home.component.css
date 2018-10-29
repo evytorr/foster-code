@@ -184,7 +184,6 @@ h1 {
 
 .icon{
     width: 100%;
-    padding-bottom:10px;
 }
 
 .mobile{
@@ -431,8 +430,17 @@ height:400px;
     padding-bottom:40px;
     }
 
+    .right-contact{
+        padding-top:200px;
+    }
+.right{
+    line-height:1.7;
+}
 
-
+#contact{
+    font-size:50px;
+    
+}
 
  .king_quote{
         padding-top:100px;
@@ -560,4 +568,16 @@ height:400px;
             margin-bottom:0px;
             font-size:50px;
         }
+.right-contact{
+    padding-top: 200px;
+
+}
+
+#contact{
+    font-size: 70px;
+}
+
+.right{
+    font-size: 42px;
+}
 }
