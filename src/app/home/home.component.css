@@ -242,6 +242,14 @@ h1 {
 
 .king_quote_container{
 background-color:black;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px;
+
+}
+.contactFormMarg{
+    margin:25px;
+   
 }
 
 .king_quote{
@@ -298,10 +306,6 @@ background-color:black;
         text-align: center;
         margin-left: 0px;
     }
-<<<<<<< HEAD
-    
-    
-=======
 .profile-pics{
     height:120px;
 }
@@ -326,7 +330,6 @@ background-color:black;
     padding-top:50px;
 }
 
->>>>>>> 703f731631c258f13c838638d918950b14a70a4f
 }
 
 @media (min-width: 768px) {
